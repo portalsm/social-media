@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Portal Social Media</title>
+<meta name="description" content="Portal de conteúdo: aprovação, gravação, ideias e resultados.">
+<meta name="theme-color" content="#F7F3EE">
+<link rel="manifest" href="./manifest.webmanifest">
+<link rel="icon" href="./img/icone-32.png" type="image/png" sizes="32x32">
+<link rel="icon" href="./img/icone-192.png" type="image/png" sizes="192x192">
+<link rel="apple-touch-icon" href="./img/icone-192.png">
+<!-- Fontes da identidade visual: Fraunces (títulos) e Outfit (texto) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Outfit:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="./css/app.css?v=20261111130311">
+</head>
+<body>
+<div id="app">
+  <div class="tela-cheia-centro"><p class="suave">Carregando...</p></div>
+</div>
+<div id="camada-modal"></div>
+<div id="avisos" aria-live="polite"></div>
+
+<!-- Biblioteca do Supabase com versão EXATA (nunca "@2" solto) -->
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="./js/config.js?v=20261111130311"></script>
+<script src="./js/app.js?v=20261111130311"></script>
+</body>
+</html>
